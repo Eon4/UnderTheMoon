@@ -15,7 +15,6 @@ function App() {
     {name: "3"},
     {name: "4"},
     {name: "5"}
-
   ]
 
   return (
@@ -32,7 +31,7 @@ function App() {
       <img className='Bg' src={HeaderBg}/>
       <div class="text-block">
     <h4>HAIRSTYLIST OG FRISØR</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, 
+    <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, 
       lacus sed volutpat molestie, orci arcu pretium elit, non cursus nunc eros at est. 
       Vivamus sed tortor et tellus pretium mollis malesuada rhoncus magna. 
       Duis ullamcorper feugiat lacus, interdum malesuada nibh aliquam et. 
@@ -41,9 +40,20 @@ function App() {
       per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
       Vestibulum ut efficitur nulla. Maecenas et lobortis nunc.</p>
   </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+<div className='middleText'>
+<h4>UNDER THE MOON - NEW STYLE</h4>
+  <p>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, 
+      lacus sed volutpat molestie, orci arcu pretium elit, non cursus nunc eros at est. 
+      Vivamus sed tortor et tellus pretium mollis malesuada rhoncus magna. 
+      Duis ullamcorper feugiat lacus, interdum malesuada nibh aliquam et. 
+      Aenean hendrerit porttitor bibendum. Nunc commodo nulla eget urna molestie, 
+      viverra tincidunt justo tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+      per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+      Vestibulum ut efficitur nulla. Maecenas et lobortis nunc.</p> 
+</div>
+<div className='middleButton'>
+<button type="button" onclick="#">LÆS MERE</button>
+</div>
 
       <div>      
         {nameArray.map((item, index) => {
