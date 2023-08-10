@@ -20,13 +20,27 @@ function App() {
 
   return (
     <>
-    
+
 <div class="topnav">
-  <a class="active" href="#home">HJEM</a>
-  <a href="#news">KONCEPTER</a>
-  <a href="#contact">UTM LOYALTY</a>
-  <a href="#about">OM</a>
-  <a href="#contact">KONTAKT</a>
+<nav >
+      <ul>
+        <li>
+          <a href="#">Hjem</a>
+        </li>
+        <li>
+          <a href="#">Koncepter</a>
+        </li>
+        <li>
+          <a href="#">UTM loyality</a>
+        </li>
+        <li>
+          <a href="#">Om</a>
+        </li>
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
 </div>
       <h1 className='header'>Under the Moon</h1>
       <img className='Bg' src={HeaderBg}/>
