@@ -59,21 +59,36 @@ function App() {
   <section className='middleGrid'>
   <img className='img01' src={sectionImg}/>
   <p className='gridText1'>ONE 2 ONE</p>
+  <p className='grid1'>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, 
+      lacus sed volutpat molestie, orci arcu pretium elit, non cursus nunc eros at est. 
+      Vivamus sed tortor et tellus pretium mollis malesuada rhoncus magna. 
+      Duis ullamcorper feugiat lacus, interdum malesuada nibh aliquam et. 
+      Aenean hendrerit porttitor bibendum. Nunc commodo nulla eget urna molestie, 
+      viverra tincidunt justo tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+      per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+      Vestibulum ut efficitur nulla. Maecenas et lobortis nunc.</p> 
   <img className='img02' src={sectionImg}/>
   <p className='gridText2'>LOYALTY FREE</p>
-
-
+  <p className='grid2'>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut convallis, 
+      lacus sed volutpat molestie, orci arcu pretium elit, non cursus nunc eros at est. 
+      Vivamus sed tortor et tellus pretium mollis malesuada rhoncus magna. 
+      Duis ullamcorper feugiat lacus, interdum malesuada nibh aliquam et. 
+      Aenean hendrerit porttitor bibendum. Nunc commodo nulla eget urna molestie, 
+      viverra tincidunt justo tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, 
+      per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+      Vestibulum ut efficitur nulla. Maecenas et lobortis nunc.</p> 
   </section>
 </div>
+<h4>FOLLOW US ON INSTAGRAM</h4>
 
-      <div>      
+      {/* <div>      
         {nameArray.map((item, index) => {
         return (
           <ShowGallery key={index} name={item.name} />
         )
         
       })}
-      </div>
+      </div> */}
     </>
   )
 }
