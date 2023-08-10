@@ -5,6 +5,7 @@ import './App.css'
 import { ShowGallery } from './components/gallery'
 import './components/gallery.css'
 import HeaderBg from './assets/img/HeaderBackground.png'
+import sectionImg from './assets/img/img7.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -53,6 +54,16 @@ function App() {
 </div>
 <div className='middleButton'>
 <button type="button" onclick="#">LÆS MERE</button>
+</div>
+<div>
+  <section className='middleGrid'>
+  <img className='img01' src={sectionImg}/>
+  <p className='gridText1'>ONE 2 ONE</p>
+  <img className='img02' src={sectionImg}/>
+  <p className='gridText2'>LOYALTY FREE</p>
+
+
+  </section>
 </div>
 
       <div>      

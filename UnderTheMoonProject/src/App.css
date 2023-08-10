@@ -103,6 +103,27 @@ html {
   margin-right: auto;
 }
 
+.middleGrid{
+  /* background-color: var(--dark); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: auto; */
+  margin: 100px;
+}
+
+.gridText1{
+  color: rgb(9, 4, 110);
+  position: absolute;
+}
+.gridText2{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin: 0;
+  top: 130%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* .logo {
